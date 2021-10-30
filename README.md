@@ -1,2 +1,183 @@
 # desafios-tecnicos-empresas
 Resolvi reunir vários desafios tecnicos aqui para ajudar vocês a se prepararem quando chegar nessa etapa
+
+Vou replicar alguns enunciados para se basearem e quando for resolver o exercicio, lembra de fazer um fork e me manda mensagem, bora ajudar mais pessoas ;)
+
+**1**
+
+Crie uma aplicação, utilizando uma linguagem de programação de sua escolha, que gerencia
+as reservas, confirmações e remoção de reservas de poltronas de um teatro.
+O teatro possui 100 poltronas, divididas em 10 filas de 10 poltronas.
+Essa aplicação deverá ter como funcionalidade:
+ - Mostrar todos os lugares disponíveis.
+ - Fazer uma reserva
+ - Confirmar uma reserva
+ - Retirar uma reserva (confirmada ou não confirmada)
+ - Mostrar o mapa de lugares (Reservados, Confirmados e Livres)
+ - Calcular o valor de arrecadação sendo que: Cada poltrona confirmada vale R$ 20,00
+ - Mostrar o total de lugares reservados
+ - Mostrar o total de lugares confirmados
+ - Mostrar o total de lugares disponíveis
+ 
+Utilize todos os recursos necessários para que a aplicação seja de fácil utilização para o
+usuário.
+* Utilize as siglas: L para Livre; C para Confirmado; e R para reservado)
+
+
+**2**
+Utilizando uma linguagem de programação de sua escolha, faça um algoritmo que dado um
+número inteiro de 1 a 100, imprima na tela o desenho de um círculo preenchido por caracteres
+se sua escolha onde o número inteiro será o raio de caracteres do círculo.
+Por exemplo, dado o número inteiro 5, uma possibilidade de desenho é a seguinte:
+
+http://prntscr.com/1xrzhyd
+
+-------------------------------------------------
+
+**3**
+
+Utilizando algum framework de desenvolvimento web ou HTML, JavaScript (ou JQuery) e CSS
+(ou algum framework css) crie uma aplicação de to-dos (afazeres).
+A aplicação deve:
+ - Ter 3 abas onde ficará as atividades: a fazer, em progresso e finalizado;
+ - Ter um input de texto onde o usuário poderá inserir suas atividades;
+ - Ter um botão para limpar todas as tarefas;
+ - Ter um botão em cada tarefa para excluir;
+ 
+**Funcionalidade:**
+ - Ao inserir alguma atividade no input, ela deve ir automaticamente para a aba ‘a fazer’;
+ - As atividades que estão na aba ‘a fazer’ deverá ter um botão que mova a atividade para a aba ‘em progresso’;
+ - Por sua vez as atividades ques estão na aba ‘em progresso’ deverá ter um botão que mova para aba ‘finalizado’;
+
+**Ah, e não esqueça de caprichar no design!**
+
+Adicional:
+Caso o usuário feche a página e abra novamente os dados inseridos anteriormente devem
+estar presentes
+
+
+**4**
+
+Instruções gerais
+
+ - Pode ser utilizada qualquer linguagem.
+ - Utilizar somente bibliotecas padrão da linguagem escolhida.
+ - Testes unitários são opcionais.
+ - A interface do sistema construído deve ser do tipo console.
+ - O código deve ser executável.
+ 
+ O que deve ser enviado
+ - Código construído.
+ - Premissas assumidas.
+ - Decisões de projeto.
+ - Instruções para executar o sistema.
+
+O problema
+Senhor Eduardo é proprietário de um canil em Belo Horizonte, ele trabalha com diversas
+raças, pequenas e grandes. Eduardo gosta que seus cães estejam sempre arrumados,
+felizes e cheirosos.
+
+No bairro do canil, para realizar o banho nos animais, existem três petshops: Meu Canino
+Feliz, Vai Rex, e ChowChawgas. Cada um deles cobra preços diferentes para banho em
+cães pequenos e grandes e o preço pode variar de acordo com o dia da semana.
+
+ - Meu Canino Feliz: Está distante 2km do canil. Em dias de semana o banho para
+cães pequenos custa R$20,00 e o banho em cães grandes custa R$40,00. Durante
+os finais de semana o preço dos banhos é aumentado em 20%.
+
+ - Vai Rex: Está localizado na mesma avenida do canil, a 1,7km. O preço do banho
+para dias úteis em cães pequenos é R$15,00 e em cães grandes é R$50,00.
+Durante os finais de semana o preço para cães pequenos é R$ 20,00 e para os
+grandes é R$ 55,00.
+
+ - ChowChawgas: Fica a 800m do canil. O preço do banho é o mesmo em todos os
+dias da semana. Para cães pequenos custa R$30 e para cães grandes R$45,00.
+Apesar de se importar muito com seus cãezinhos, Eduardo quer gastar o mínimo possível.
+Desenvolva uma solução para encontrar o melhor petshop para levar os cães. O melhor
+petshop será o que oferecer menores preços, em caso de empate o melhor é o mais
+próximo do canil.
+
+Entrada:
+<data> <quantidade de cães pequenos> <quantidade cães grandes>
+Exemplo: 03/08/2018 3 5
+  
+Saída:
+Nome do melhor canil e preço total dos banhos
+
+_________________________________________________________________________________
+  
+  
+ **5** 
+ 
+ Após uma reunião com a Diretoria, a equipe de Analistas da MMtools decidiu que
+era necessário desenvolver uma nova funcionalidade para o sistema:
+  
+1. O usuário poderá escolher alguns produtos no site e adiciona-los ao carrinho
+de compras.
+2. Esse carrinho conterá o total de compras efetuadas;
+3. As informações do carrinho NÃO deverão ser gravadas no banco de dados;
+4. Deverá ter um acesso administrador para cadastrar os produtos, promoções
+e editar usuários.
+5. O que será gravado no banco de dados (as tabelas podem ter mais
+informações se necessário):
+  
+**a. Cadastro de clientes com as informações:**
+  
+  
+|Nome da coluna |Descrição |
+|----------|:-------------:|
+|ClienteId      |ID do cliente. (Obrigatório)|
+|Nome           |Nome do cliente. (Obrigatório)|
+|Email          |Email do cliente. (Obrigatório)|
+|DataCadastro   |Data de cadastro do cliente no sistema (Obrigatório)|
+|DataModificacao |Data em que os dados do cliente foram alterados.|
+|Telefone       |Telefone do cliente. (Obrigatório)|
+|Ativo          |Se o cliente está ativo ou inativo no sistema. (Obrigatório)|
+|Cpf            |CPF do cliente.|
+|DataNascimento |Data de nascimento do cliente.|
+  
+**b. Cadastro de produtos:**
+  1. ProdutosID
+  2. Descrição
+  3. Preço de Venda
+**c. Promoções de vendas:**
+  1. Descrição da promoção
+  2. Data de validade
+  3. Produto
+  4. Quantidade mínima
+  5. Desconto
+  
+Ex: leve 3 pague 2, Acima de 5 20% desconto
+  
+**d. Histórico de compras**
+ Observação importante:
+  1. Para concluir a compra, o usuário precisa estar logado;
+  2. Deve ser possível cadastrar um novo cliente sem estar logado no sistema.
+  3. Somente um usuário do tipo administrador pode exercer o CRUD nas tabelas.
+  
+**Especificações básicas (Mínimo a ser feito):**
+  1. O sistema deve ser desenvolvido utilizando o ASP.NET MVC 4.0 ou superior;
+  2. O sistema deve ser desenvolvido em C#;
+  3. Utilizar o EntityFramework;
+  4. Utilizar o Bootstrap;
+  5. Utilizar o Jquery;
+  6. Deve ser possível pesquisar os clientes cadastrados na tela do administrador;
+  7. Se necessário, os campos devem ser validados;
+  8. O campo Telefone deve ter a seguinte formatação: (00) 0000-00000;
+  9. O campo CPF deve ter seguinte formatação: 000.000.000-00;
+  10.O código deve executar no Visual Studio 2015 ou superior;
+  
+**Especificações avançadas (Ponto extra para cada item abaixo):**
+  1. Utilizar DDD;
+  2. Utilizar TDD e/ou BDD;
+  3. Autenticação do usuário e administrador via Token;
+  4. Back-end do sistema desenvolvido somente com Web API;
+  5. Front-end do sistema desenvolvido em Angular;
+  
+**Diferenciais:**
+  1. Boas práticas de desenvolvimento (SOLID);
+  2. Comentários;
+  3. Documentação (Diagrama de classes, Casos de uso, etc.);
+
+**  Entrega:**
+  • Deverá ser enviado, um arquivo .zip ou .rar, o código do projeto e o script de criação do banco de dados.
