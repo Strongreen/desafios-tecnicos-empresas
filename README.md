@@ -343,3 +343,13 @@ containers.
  
  - Serão avaliados a arquitetura, os padrões utilizados para o desenvolvimento
 e a entrega no prazo
+
+ _________________________________________________________________________________
+    
+ **9** 
+
+#Links de repositorios
+ 
+HURB: https://github.com/hurbcom/
+MAISTODOS:https://github.com/MaisTodos/backend-python-wallet
+ZEDELIVERY: https://github.com/ZXVentures/ze-code-challenges/blob/master/backend.md 
