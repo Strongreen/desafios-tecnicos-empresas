@@ -350,6 +350,6 @@ e a entrega no prazo
 
 #Links de repositorios
  
-HURB: https://github.com/hurbcom/
-MAISTODOS:https://github.com/MaisTodos/backend-python-wallet
-ZEDELIVERY: https://github.com/ZXVentures/ze-code-challenges/blob/master/backend.md 
+ - HURB: https://github.com/hurbcom/
+ - MAISTODOS:https://github.com/MaisTodos/backend-python-wallet
+ - ZEDELIVERY: https://github.com/ZXVentures/ze-code-challenges/blob/master/backend.md 
